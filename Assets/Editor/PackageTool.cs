@@ -6,6 +6,6 @@ public class PackageTool
     [MenuItem("Package/Update Package")]
     static void UpdatePackage()
     {
-        AssetDatabase.ExportPackage("Assets/Kino", "KinoStreak.unitypackage", ExportPackageOptions.Recurse);
+        AssetDatabase.ExportPackage("Assets/Kino", "KinoTube.unitypackage", ExportPackageOptions.Recurse);
     }
 }
